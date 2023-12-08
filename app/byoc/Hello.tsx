@@ -11,5 +11,6 @@ const Hello = () => {
 export default Hello;
 
 FEAAS.registerComponent(Hello, {
-    name: 'Hello'
+    name: 'Hello',
+    group: 'Custom BYOC components'
 })
